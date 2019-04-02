@@ -19,6 +19,6 @@ var fs = require('fs'),
 
 var T = new Twit(config);
 
-T.post('statuses/update', { status: 'Learning node' }, function(err, data, response) {
+T.post('statuses/update', { status: 'Hello, learning node.js!' }, function(err, data, response) {
   console.log(data)
 });
