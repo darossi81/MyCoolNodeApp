@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var config = {
   consumer_key:         '6wNtD8keQwlmeCKymofmPKBz6',
   consumer_secret:      'KhIjjNetsNrJUaN1tuGA7ogTMvBVKxlAK7e5E0L69mTiGlGgp7',
