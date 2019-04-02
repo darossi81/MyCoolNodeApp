@@ -19,6 +19,6 @@ var fs = require('fs'),
 
 var T = new Twit(config);
 
-T.post('statuses/update', { status: 'Tweet from Heroku' }, function(err, data, response) {
+T.post('statuses/update', { status: 'Test Tweet from Heroku' }, function(err, data, response) {
   console.log(data)
 });
