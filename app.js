@@ -25,7 +25,7 @@ function random_from_array(images){
 
 function upload_random_image(images){
   console.log('Opening an image...');
-  var image_path = path.join('http://exceltraining.london/draw/uploads/' + random_from_array(images)),
+  var image_path = path.join(__dirname, '/images/' + random_from_array(images)),
       b64content = fs.readFileSync(image_path, { encoding: 'base64' });
 
   console.log('Uploading an image...');
@@ -79,7 +79,7 @@ fs.readdir(__dirname + '/images', function(err, files) {
   */
     setInterval(function(){
       upload_random_image(images);
-    }, 30000);
+    }, 300000);
 
   /*
     Or you could use cron (code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800), in which case you just need:
