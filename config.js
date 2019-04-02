@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var config = {
   consumer_key:         '6wNtD8keQwlmeCKymofmPKBz6',
   consumer_secret:      'KhIjjNetsNrJUaN1tuGA7ogTMvBVKxlAK7e5E0L69mTiGlGgp7',
@@ -6,3 +7,13 @@ var config = {
 }
 
 module.exports = config;
+=======
+var config = {
+  consumer_key:         config2.consumer_key,
+  consumer_secret:      config2.consumer_secret,
+  access_token:         config2.access_token,
+  access_token_secret:  config2.access_token_secret
+}
+
+module.exports = config;
+>>>>>>> 62e9cd6e774a5eb4f2b5e2c56acd1abbf128f62d
